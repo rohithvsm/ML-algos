@@ -2,12 +2,8 @@
  * A k-means clustering algorithm implementation.
  *
  * Author  : Rohith Subramanyam
- * Student ID: 9071646443
- * wisc username: subramanyam2
- * CS login: rohithvsm
- * Class title: CS 540 Section 1: Introduction to Artificial Intelligence by Jerry Zhu
- * HW1
  * Date: Sept 26th 2014
+ *
  */
 
 import java.util.*;

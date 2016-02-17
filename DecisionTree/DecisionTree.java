@@ -1,9 +1,6 @@
 /**
  * This class provides a framework for accessing a decision tree.
- * Do not modify or place code here, instead create an
- * implementation in a file DecisionTreeImpl. 
  * 
- * Direct questions to nixon@cs.wisc.edu
  */
 abstract class DecisionTree {
 	/**

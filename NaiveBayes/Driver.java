@@ -13,10 +13,9 @@ import java.util.Set;
 /**
  * This is the main method that will load the application.
  * 
- * DO NOT MODIFY
  */
 
-public class HW4 {
+public class Driver {
 	/**
 	 * Creates a fresh instance of the classifier.
 	 * 
@@ -37,7 +36,7 @@ public class HW4 {
 	 */
 	public static void main(String[] args) throws IOException {
 		if (args.length < 2) {
-			System.out.println("usage: java HW3 <trainingFilename> <testFilename>");
+			System.out.println("usage: java Driver <trainingFilename> <testFilename>");
 		}
 
 		// Output classifications on test data

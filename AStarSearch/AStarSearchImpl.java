@@ -10,7 +10,6 @@ public class AStarSearchImpl implements AStarSearch {
 	
 	@Override	
 	public SearchResult search(String initConfig, int modeFlag) {
-		// TODO Add your code here
 
         int initStateHeuristic = getHeuristicCost(initConfig, modeFlag);
         //System.out.println(initStateHeuristic);
@@ -109,7 +108,6 @@ public class AStarSearchImpl implements AStarSearch {
 
 	@Override
 	public boolean checkGoal(String config) {
-		// TODO Add your code here
 		char centralSquare[] = {config.charAt(6) , config.charAt(7) , config.charAt(8) , config.charAt(11)
                                ,config.charAt(12), config.charAt(15), config.charAt(16), config.charAt(17)};
         char element = centralSquare[0];
@@ -122,10 +120,8 @@ public class AStarSearchImpl implements AStarSearch {
 	}
 
 	@Override
-	public String move(String config, char op) {
-		// TODO Add your code here
-	
-		
+	public String move(String config, char op) {	
+
         char[] rotatedConfig = config.toCharArray();
         int[] aIndices = {0, 2, 6, 11, 15, 20, 22};
         int[] bIndices = {1, 3, 8, 12, 17, 21, 23};
@@ -162,7 +158,6 @@ public class AStarSearchImpl implements AStarSearch {
 
 	@Override
 	public int getHeuristicCost(String config, int modeFlag) {		
-		// TODO Add your code here
 		
         if(modeFlag == 2)
             return 0;

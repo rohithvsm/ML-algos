@@ -2,7 +2,6 @@
  * Interface class for the naive bayes classifier.
  * For an explanation of methods, see NaiveBayesClassifierImpl. 
  * 
- * DO NOT MODIFY
  */
 public interface NaiveBayesClassifier {
 	void train(Instance[] trainingData, int v);

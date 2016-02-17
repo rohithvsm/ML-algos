@@ -5,9 +5,6 @@ import java.util.List;
  * Possible class for internal organization of a decision tree.
  * Included to show standardized output method, print().
  * 
- * Do not modify. If you use,
- * create child class DecTreeNodeImpl that inherits the methods.
- * 
  */
 public class DecTreeNode {
 	Integer label; //for 

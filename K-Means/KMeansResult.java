@@ -1,5 +1,5 @@
 /**
- * Result class for KMeans cluster method. DO NOT MODIFY. 
+ * Result class for KMeans cluster method.
  *
  */
 

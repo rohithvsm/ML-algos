@@ -3,7 +3,6 @@ import java.util.Comparator;
 /**
  * class for search state.
  * 
- * DO NOT MODIFY.
  */
 public class State {
 	public State(String config, int realCost, int heuristicCost, String opSequence){
@@ -39,7 +38,7 @@ public class State {
 		}
 	};
 	
-	public String config;			//configuation
+	public String config;			//configuration
 	public int realCost;			//equivalent to g 
 	public int heuristicCost;		//equivalent to h
 	public String opSequence;		//operation sequence

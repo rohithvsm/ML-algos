@@ -2,7 +2,6 @@
  * Interface class for A* search algorithm.
  * For an explanation of methods, see AStarSearchImpl. 
  * 
- * DO NOT MODIFY
  */
 public interface AStarSearch {
 	/**

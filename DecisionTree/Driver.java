@@ -1,19 +1,11 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-/**
- * Do not modify.
- * 
- * Direct questions to nixon@cs.wisc.edu
- */
-public class HW2 {
+public class Driver {
 
-	/**
-	 * Runs the tests for HW2
-	 */
 	public static void main(String[] args) {
 		 if (args.length < 4) {
-			 System.out.println("usage: java HW2 <modeFlag> <trainFilename> " +
+			 System.out.println("usage: java Driver <modeFlag> <trainFilename> " +
 			 		"<tuneFilename> <testFilename>");
 			 System.exit(-1);
 		 }

@@ -1,7 +1,6 @@
 /**
  * An SMS instance.
  * 
- * DO NOT MODIFY.
  */
 public class ClassifyResult {
 	/** 

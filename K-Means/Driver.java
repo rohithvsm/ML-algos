@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Main class that acts as a launcher for your clustering algorithm. DO NOT MODIFY.
+ * Main class that acts as a launcher for your clustering algorithm.
  *
  */
 
-public class HW1 {
+public class Driver {
 	/*
 	 * Reads the command-line arguments, performs type conversion, calls clustering
 	 * algorithm and prints results to the console.

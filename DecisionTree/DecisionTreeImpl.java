@@ -39,7 +39,6 @@ public class DecisionTreeImpl extends DecisionTree {
 		this.labels = train.labels;
 		this.attributes = train.attributes;
 		this.attributeValues = train.attributeValues;
-		// TODO: add code here
 
 		// My code starts here
 		int labelCount[] = new int[this.labels.size()];
@@ -80,7 +79,6 @@ public class DecisionTreeImpl extends DecisionTree {
 		this.labels = train.labels;
 		this.attributes = train.attributes;
 		this.attributeValues = train.attributeValues;
-		// TODO: add code here
 
 		int numInstances = train.instances.size();
 		int lbl[] = new int[this.labels.size()];
@@ -340,8 +338,6 @@ public class DecisionTreeImpl extends DecisionTree {
 	@Override
 	public String classify(Instance instance) {
 
-		// TODO: add code here
-
 		DecTreeNode node = new DecTreeNode(root.label, root.attribute,
 				root.parentAttributeValue, root.terminal);
 		if (!root.terminal)
@@ -400,7 +396,6 @@ public class DecisionTreeImpl extends DecisionTree {
 		this.labels = train.labels;
 		this.attributes = train.attributes;
 		this.attributeValues = train.attributeValues;
-		// TODO: add code here
 
 		double entropyLabels = labelEntropy(train.instances);
 		double attrEntropy[] = new double[this.attributes.size()];

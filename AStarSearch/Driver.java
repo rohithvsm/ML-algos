@@ -6,12 +6,11 @@ import java.util.List;
 /**
  * This is the main method that will load the application.
  * 
- * DO NOT MODIFY
  */
 
-public class HW5 {
+public class Driver {
 	/**
-	 * Creates a fresh instance of the search alogirthm.
+	 * Creates a fresh instance of the search alogrithm.
 	 * 
 	 * @return	a A* search class instance
 	 */
@@ -27,7 +26,7 @@ public class HW5 {
 	 */
 	public static void main(String[] args) throws IOException {
 		if (args.length != 2) {
-			System.out.println("usage: java HW5 <inputFileName> <modeFlag>");
+			System.out.println("usage: java Driver <inputFileName> <modeFlag>");
 		}
 
 		String[] initConfigs = readlines(args[0]);
