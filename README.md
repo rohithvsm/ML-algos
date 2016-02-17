@@ -1,2 +1,2 @@
 # ml-algos
-Contains some Machine Learning techniques implemented in Java and Python
+Contains some Machine Learning / AI techniques implemented in Java and Python
